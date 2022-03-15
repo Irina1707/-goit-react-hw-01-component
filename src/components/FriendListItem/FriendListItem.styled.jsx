@@ -1,6 +1,8 @@
 import styled from '@emotion/styled';
 
 export const FriendItem = styled.li`
+ margin-left: auto;
+  margin-right: auto;
   display: block;
   border: 1px solid gray;
   border-radius: 3px;
