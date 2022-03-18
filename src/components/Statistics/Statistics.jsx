@@ -5,7 +5,7 @@ import {Stat, StatTitle, StatList, StatItem, StatLabel} from './Statistics.style
 export const Statistics = ({ title, stats }) => {
     return (
     <Stat>
-  <StatTitle>{title}</StatTitle>
+        {title && <StatTitle>{title}</StatTitle>}
             <StatList>
             {stats.map(({ id, label, percentage }) =>
     <StatItem key={id}>
